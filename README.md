@@ -1,6 +1,6 @@
 # POS-Tagging-using-HMM
 
-- Check CSCI_2023_HW2.pdf for the complete problem description
+#### Check CSCI_2023_HW2.pdf for the complete problem description
 
 ## Gist of the problem:
 - POS Tagging using HMM
@@ -12,29 +12,25 @@
 
 ## Results:
 
-- Greedy Decoding with HMM
-Accuracy on dev data : 0.9331 
-Prediction for test data is generated and stored as in train data. -greedy.out
+### Greedy Decoding with HMM
+- Accuracy on dev data : 0.9331 
+- Prediction for test data is generated and stored as in train data. -greedy.out
 
-- Viterbi Decoding with HMM
-Accuracy on dev data : 0.9475 
-Prediction for test data is generated and stored as in train data. - viterbi.out
+#### Viterbi Decoding with HMM
+- Accuracy on dev data : 0.9475 
+- Prediction for test data is generated and stored as in train data. - viterbi.out
 
 
 
-## How to run the code:
+## Reproducing the results
 
 - This entire code is in the python file "hw2.py".
 - Notebook version is available in the experiment-hw2.ipynb 
 - The code generates 4 output files: "vocab.txt", "hmm.json", "greedy.out", and "viterbi.out" (all these are found in the output    directory).
 
-
-- 1. Ensure that the data folder is in the same directory as the code or specify the correct data path in lines 4, 5 and 6 of the hw2.py file.
-- 2. To run the code, you can either type "python hw2.py" in the command line or open the file in an editor.
-- 3. Once the code is run, the output files will be generated in the same directory as the code.
-
-
+### How to run the code:
+-  Ensure that the data folder is in the same directory as the code or specify the correct data path in lines 4, 5 and 6 of the hw2.py file.
+-  To run the code, you can either type "python hw2.py" in the command line or open the file in an editor.
+-  Once the code is run, the output files will be generated in the same directory as the code.
 - Note: viterbi algorithm may take upto 5 minutes to generate the ouput files.
-
-
-- Just included .ipynb file for reference - done experiments and validation in it. 
+ 
